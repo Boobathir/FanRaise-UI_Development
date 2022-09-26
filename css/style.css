@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  padding-top: 27px;
+}
+
+header.sticky {
+  background-color: #092555;
+  padding: 10px 0px;
+}
+
+.main-menu a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.main-menu a.linkBtn {
+  padding: 6px 14px;
+  border-radius: 15px;
+  background-color: #d12010;
+}
+
+.heroBg.jumbotron {
+  background: url(../imgs/bg.png) no-repeat center;
+  background-size: cover;
+}
+
+.heroBg .banner-content {
+  padding: 13% 0;
+}
+
+.heroBg h1 {
+  font-size: 75px;
+  font-weight: 300;
+}
+
+.heroBg h2 {
+  font-size: 85px;
+  font-weight: 900;
+}
+
+.heroBg h3 {
+  font-weight: 400;
+}
+
+.gradianteft {
+  width: 100%;
+  height: 137px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 37, 85, 0)), color-stop(77%, #092555));
+  background-image: linear-gradient(to bottom, rgba(9, 37, 85, 0), #092555 77%);
+  bottom: 0;
+}
+
+.btn.roundbtn {
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.btn.roundbtn.btn-lg {
+  padding: 18px 29px;
+}
+
+.btn.roundbtn.btn-sm {
+  padding: 12px 29px;
+}
+
+.btn.roundbtn.redfill {
+  background: #d8232a;
+}
+
+.btn.roundbtn.blackfill {
+  background: #05253d;
+}
+
+.aboutBg {
+  background-color: #092555;
+}
+
+.aboutBg .dark_para {
+  margin-bottom: 20px;
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.aboutBg .aboutImg span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  max-width: 558px;
+  max-height: 356px;
+}
+
+.aboutBg .aboutImg span.imgbef {
+  background-image: url(../imgs/whitepaint.png);
+  right: -26px;
+  top: -12px;
+}
+
+.aboutBg .aboutImg span.imgaft {
+  background-image: url(../imgs/redpaint.png);
+  left: -70px;
+  bottom: -23px;
+}
+
+.aboutBg .aboutImg img {
+  z-index: 2;
+}
+
+.titletop {
+  font-size: 18px;
+}
+
+.theme-heading h1 {
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  margin: 14px 0 26px 0;
+}
+
+.font900 {
+  font-weight: 900;
+}
+
+.howBg {
+  background: url(../imgs/howits.png) no-repeat center;
+  padding-top: 100px;
+  background-size: cover;
+}
+
+.howBg .videoSection {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.howBg .playicon {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.bg-light-dark {
+  background: rgba(101, 16, 20, 0.5);
+  padding: 40px 0;
+}
+
+.bg-light-dark .number {
+  border: solid 1px;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  height: 40px;
+  max-width: 40px;
+}
+
+.bg-light-dark .stepsDetails
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.bg-light-dark .para {
+  line-height: 1.63;
+  padding-top: 5px;
+}
+
+.supporterSec {
+  padding: 120px 0 80px 0;
+}
+
+.funderDetails {
+  padding: 18px 0 8px 26px;
+  border-radius: 5px;
+}
+
+.funderDetails .funderTotal {
+  margin: 0 0 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1d2125;
+}
+
+.funderDetails.lgBlu {
+  background-color: #e9f3ff;
+}
+
+.funderDetails.lgGreen {
+  background: #d4fcea;
+}
+
+.funderDetails .fundVal {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.funderSlider {
+  padding-top: 80px;
+}
+
+.funderSlider .card {
+  padding: 42px 22px 26px 40px;
+  border-color: #dedee0;
+}
+
+.funderSlider .card .card-img-top {
+  max-width: 120px;
+}
+
+.funderSlider .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #05253d;
+  line-height: normal;
+}
+
+.funderSlider .card-text {
+  line-height: 1.63;
+  color: #1d2125;
+}
+
+.funderSlider .progress {
+  border: solid 1px #b8c0c8;
+  background-color: #e8edf2;
+  border-radius: 10px;
+  height: 0.625rem;
+  max-width: 260px;
+  width: 100%;
+}
+
+.funderSlider .progress .progress-bar {
+  border-radius: 7.5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6bc2ff), to(#398fff));
+  background-image: linear-gradient(to bottom, #6bc2ff, #398fff);
+}
+
+.funderSlider .c-SubTi {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
+  color: #4b4b4b;
+}
+
+.funderSlider .goalVal {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 1.08;
+  color: #05253d;
+  margin-top: 8px;
+}
+
+.funderSlider .card-link {
+  font-weight: 600;
+  color: #da3339;
+}
+
+.funderSlider .card-link img {
+  top: -1px;
+}
+
+.funderSlider span.pval {
+  margin: 0 0 0 15px;
+  font-family: Roboto;
+  color: #05253d;
+}
+
+.funderSlider .owl-nav {
+  padding-top: 40px;
+  margin: 0;
+}
+
+.funderSlider .owl-nav button:hover {
+  background: transparent !important;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    padding-top: 10px;
+  }
+  header.sticky {
+    padding: 0;
+  }
+  .heroBg .banner-content {
+    padding-top: 30%;
+  }
+  .heroBg h1 {
+    font-size: 35px;
+  }
+  .heroBg h2 {
+    font-size: 40px;
+  }
+  .heroBg.jumbotron {
+    height: 100vh;
+  }
+  .aboutBg .aboutImg span {
+    background-size: contain;
+  }
+  .aboutBg .aboutImg span.imgbef {
+    right: -10px;
+  }
+  .aboutBg .aboutImg span.imgaft {
+    left: -40px;
+    top: 130px;
+  }
+  .supporterSec .supportsLogo {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+  }
+  .supporterSec .supportsLogo img {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+    padding: 30px 55px;
+    width: 60%;
+  }
+}
+
+@media (min-height: 0) and (max-height: 600px) {
+  .heroBg .banner-content {
+    padding-top: 30%;
+  }
+  .heroBg h1 {
+    font-size: 35px;
+  }
+  .heroBg h2 {
+    font-size: 40px;
+  }
+  .heroBg.jumbotron {
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .funderSlider .card {
+    padding: 20px;
+  }
+  .funderSlider .card-title {
+    font-size: 18px;
+  }
+  .funderSlider .goalVal {
+    font-size: 15px;
+  }
+  .funderSlider .card-link {
+    font-size: 14px;
+  }
+  .funderSlider .c-SubTi {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .supporterSec {
+    padding: 50px 0;
+  }
+  .customAnimation {
+    width: 100vw;
+    background: #092555;
+  }
+  .customAnimation .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 25px;
+    margin-top: 20px;
+    padding: 25px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .funderSlider .goalVal {
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
